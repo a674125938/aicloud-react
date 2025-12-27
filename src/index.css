@@ -1,0 +1,36 @@
+/* 优先加载 Ant Design reset 样式 */
+@import "antd/dist/reset.css";
+/* 然后加载 Tailwind CSS */
+@import "tailwindcss";
+
+:root {
+  /* 默认主题色，会被 JavaScript 动态更新 */
+  --primary-color: #667eea;
+}
+
+/* Tailwind CSS v4 主题配置 */
+@theme {
+  --color-primary: var(--primary-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

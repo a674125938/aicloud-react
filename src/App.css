@@ -1,0 +1,46 @@
+.react-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.react-header {
+  background: linear-gradient(135deg, #61dafb 0%, #20232a 100%);
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.react-header h1 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.react-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.react-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.react-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.react-nav a.active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.react-content {
+  flex: 1;
+  padding: 2rem;
+  background: #f5f5f5;
+}
+
+
